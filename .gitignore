@@ -1,0 +1,21 @@
+# Python
+venv/
+env/
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local settings
+settings.json
+
+# VS Code, PyCharm
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
