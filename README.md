@@ -6,6 +6,9 @@ Vivid Inspector is a desktop tool designed for managing and comparing unpacked g
 
 ![UI and functionality demonstration](app1.png)
 
+## Feedback
+* [Telegram](https://t.me/name26626/20)
+
 ## How to download and run
 1. Go to [Releases](https://github.com/saiaku501d/Vivid-Inspector/releases)
 2. Download the latest version
