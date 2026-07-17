@@ -20,7 +20,7 @@ from core.file_utils import get_file_path_parts
 from core.models import TreeNode
 
 class SpriteComparerApp(QMainWindow):
-    """Main application window for the Asset Lifecycle Inspector."""
+    """Main application window for the Vivid Inspector."""
 
     def __init__(self):
         super().__init__()
@@ -687,8 +687,8 @@ class SpriteComparerApp(QMainWindow):
         menu.addSeparator()
         
         copy_menu = menu.addMenu("📋 Copy Name")
-        action_copy_local = copy_menu.addAction("1. Local Name (townstage)")
-        action_copy_full = copy_menu.addAction("2. Full Path (rm_townstage)")
+        action_copy_local = copy_menu.addAction("1. Local Name")
+        action_copy_full = copy_menu.addAction("2. Full Path")
         
         menu.addSeparator()
         action_inc = menu.addAction(self.t("ctx_inc"))
